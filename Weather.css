@@ -1,0 +1,106 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://r4.wallpaperflare.com/wallpaper/285/172/9/sunset-8k-forest-4k-wallpaper-f3fbc3fd7d29db258fb6527708db28e8.jpg'); /* Replace 'your-background-image-url.jpg' with the actual URL or path to your image */
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  
+  
+  
+  .App {
+    text-align: center;
+  }
+  
+  .header {
+    background-color:transparent;
+    backdrop-filter: blur(10px);
+    color: black;
+    padding: 200px;
+    text-align: center;
+    width: 420px;
+    border: 2px solid rgba(19, 160, 216, 0.952);
+  }
+  
+  .header h1 {
+    margin: 10px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 10px 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .Button button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Button button:hover {
+    background-color: #ff0000;
+  }
+  
+  .weather-display {
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .weather-display h2 {
+    margin: 0;
+  }
+  
+  .weather-display p {
+    color: #fff;
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .weather-icons {
+    font-size: 48px;
+    margin-top: 10px;
+    color: #fff;
+  }
+  
+  
+  .weather-icons svg {
+    margin: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .weather-icons svg:hover {
+    transform: scale(1.2);
+  }
+  
+  .weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
